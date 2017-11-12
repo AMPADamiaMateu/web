@@ -5,7 +5,7 @@ imgpreload.src="https://image.ibb.co/m9PQYG/dmcapcalera.png";
 	divContentImage.empty();
 	divContentImage.append(imgpreload);
 	divContentImage.attr("style","background-color:#087eb6;display:visible!important");
-	divContentImage = $("#header .row .large-12 .box-image .box-content").remove();
+	 $("#header .row .large-12 .box-image .box-content").remove();
 /*
 	var divImage = $(".CoverImage.FlexEmbed.FlexEmbed--3by1");
 	divImage.attr("style","background-color:#087eb6;background-image:url(https://image.ibb.co/m9PQYG/dmcapcalera.png)");
