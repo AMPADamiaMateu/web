@@ -2,5 +2,9 @@
 	display:none;
 }		
 .ampainfo {
-	color: #990000
+	color: #990000;
+}
+.ampainfob {
+	color: #990000;
+	font-size:bold;
 }
