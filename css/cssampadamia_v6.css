@@ -1,0 +1,40 @@
+#header .row .large-12.small-12.columns{
+	display:none;
+}	
+/*color*/	
+.dmcolorred {
+	color: #990000;
+}
+.dmcolorblue {
+	color: #087eb6;
+}
+.dmcolorblank {
+	color: #000000;
+}
+/*font-size*/
+.dmfontsize11 {
+	font-size:1.1em;
+}
+.dmfontsize12 {
+	font-size:1.2em;
+}
+.dmfontsize13 {
+	font-size:1.3em;
+}
+.dmfontsize14 {
+	font-size:1.4em;
+}
+.dmfontsize15 {
+	font-size:1.5em;
+}
+/*margin*/
+.dmmargin-top-1 {
+	margin-top: 1em;
+}
+.dmmargin-top-2 {
+	margin-top: 2em;
+}
+.dmmargin-top-3 {
+	margin-top: 3em;
+}
+	
