@@ -37,6 +37,10 @@
 .dmmargin-top-3 {
 	margin-top: 3em;
 }
+/*align*/
+.dmtextaligncenter {
+	text-align:center;
+}
 /*clear*/
 .dmclear:before,
 .dmclear:after {
