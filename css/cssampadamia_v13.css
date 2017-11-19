@@ -68,12 +68,3 @@
 .dmclear {
   zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
-/*responsive*/
-.dmcol-container {
-    display: table; /* Make the container element behave like a table */
-    width: 100%; /* Set full-width to expand the whole page */
-}
-
-.dmcol {
-    display: table-cell; /* Make elements inside the container behave like table cells */
-}
