@@ -1,10 +1,18 @@
-/*
-var accItem = document.getElementsByClassName('accordionItem');
-var accHD = document.getElementsByClassName('accordionItemHeading');
-for (i = 0; i < accHD.length; i++) {
-	accHD[i].addEventListener('click', toggleItem, false);
-}
-*/
+/*Inici Capcalera */
+var imgpreload = new Image;
+imgpreload.src = "https://raw.githubusercontent.com/AMPADamiaMateu/web/master/images/dm/dmcapcalera.png";
+var header = document.getElementById("header");
+header.className += " hide-for-small";
+var divcontent = header.getElementsByClassName("large-12")[0];
+divcontent.innerHTML = "";
+divcontent.style.background = "#087eb6";
+divcontent.style.display = "block";
+var div = document.createElement("div");
+div.className = "large-12";
+div.appendChild(imgpreload),
+divcontent.appendChild(div);
+/*Fi Capcalera*/
+/*Inici Accordion*/
 function scrollToElement(pageElement) {    
     var positionX = 0,         
         positionY = 0;    
@@ -16,7 +24,6 @@ function scrollToElement(pageElement) {
         window.scrollTo(positionX, positionY);    
     }
 }
-
 function toggleItem(myElement, id) {
 	var accItem = document.getElementsByClassName('accordionItem');
 	var itemClass = myElement.parentNode.className;
@@ -28,6 +35,5 @@ function toggleItem(myElement, id) {
 	}
 	var pageElement = document.getElementById(id);
     scrollToElement(pageElement);
-	//var objControl=document.getElementById(id);
-    //objControl.scrollIntoView();
 }
+/*Fi Accordion*/
