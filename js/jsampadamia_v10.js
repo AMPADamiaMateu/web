@@ -13,6 +13,24 @@ div.className = "large-12";
 div.appendChild(imgpreload),
 divcontent.appendChild(div);
 */
+var header = document.getElementById("header");
+var div = document.createElement('div');
+div.className = 'row';
+
+div.innerHTML = `
+<div class="large-12 small-12 columns">
+	<div class="box-description large-6 columns">
+		<div class="box-content">
+			<div>
+				<span style="font-size:2.5vw">
+				AFA Damià Mateu
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+`;
+header.appendChild(div);
 /*Fi Capcalera*/
 /*Inici Accordion*/
 function scrollToElement(pageElement) {    
