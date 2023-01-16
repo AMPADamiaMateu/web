@@ -1,34 +1,3 @@
-
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
-@AMPADamiaMateu
-AMPADamiaMateu /
-web
-Public
-
-Cannot fork because you own this repository and are not a member of any organizations.
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-
-    Settings
-
-web/js/jsampadamia_v11.js /
-@AMPADamiaMateu
-AMPADamiaMateu Create jsampadamia_v11.js
-Latest commit 66cae6e Jan 16, 2023
-History
-1 contributor
-59 lines (57 sloc) 1.73 KB
 /*Inici Capcalera */
 /*
 var imgpreload = new Image;
